@@ -1,0 +1,46 @@
+.blogCard{
+    width: 80%;
+    margin: auto;
+    min-height: 25rem;
+    box-shadow: 1px 1px 2rem #dddcdc;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 7rem;
+    /* align-items: center; */
+}
+
+.blogCard .text-container{
+    width: 70%;
+}
+
+.blogCard h1{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.blogCard p{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.blogCard a{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.blogCard img{
+    width: 30rem;
+}
+
+.blogss{
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+   .blogCard{
+       flex-direction: column;
+       align-items: center;
+   }
+}

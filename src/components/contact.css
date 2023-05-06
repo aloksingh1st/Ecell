@@ -1,0 +1,8 @@
+.contact-card{
+    flex-direction: column;
+}
+
+.contact-card .cont-cont span{
+    font-size: 1.5rem;
+    margin: 2em;
+}

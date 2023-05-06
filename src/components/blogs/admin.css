@@ -1,0 +1,17 @@
+.admin-container{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.block-container{
+    /* margin-top: 10rem; */
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.center{
+    text-align: center;
+}

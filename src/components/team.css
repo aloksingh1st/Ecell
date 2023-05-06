@@ -1,0 +1,44 @@
+.cf{
+    display: flex;
+    padding-top: 14rem;
+    padding-left: 4rem;
+}
+
+#ujjwal{
+    max-width: 40rem;
+}
+.teame{
+    text-align: center;
+}
+
+.teame .h1{
+    font-size: 6rem;
+}
+
+.teame .mh1{
+    font-size: 4rem;
+}
+
+.cf .card-container{
+    margin: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.president{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 556px) {
+    .cf{
+        display: block;
+    }
+    .cf *{
+        margin: auto;
+
+    }
+}

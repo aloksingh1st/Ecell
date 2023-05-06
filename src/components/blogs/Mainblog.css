@@ -1,0 +1,28 @@
+.blogcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.image-blog-container img{
+    width: 80rem;
+    margin: auto;
+}
+.image-blog-container{
+    margin: auto;
+}
+
+.blogcontainer h1{
+    font-size: 4rem;
+}
+
+.text-container{
+    font-size: 2rem;
+    text-align: left;
+    margin:1rem 5rem;
+}
+
+.text-container h1{
+    text-align: center;
+}

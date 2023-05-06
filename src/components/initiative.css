@@ -1,0 +1,23 @@
+.initiaves span{
+    display: none;
+}
+
+.container-initiative{
+    text-align: center;
+}
+
+.container-initiative .mh1{
+    font-size: 4rem;
+}
+
+
+@media screen and (max-width: 1040px) {
+  
+   .container-initiative .initiaves{
+       display: block;
+   }
+
+   .container-initiative .initiaves .card{
+       margin: auto;
+   }
+    }

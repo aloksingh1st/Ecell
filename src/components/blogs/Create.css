@@ -1,0 +1,23 @@
+textarea{
+    margin: 1rem;
+    font: 1.3rem bold;
+}
+
+.create-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: -8rem; */
+    /* margin-top: 10rem; */
+}
+
+.create-container input{
+    height: 5rem;
+    margin: 1rem;
+    font: 1.3rem bold;
+    text-align: center;
+}
+
+.create-container input[type='submit']{
+    background-color: var(--main-color);
+}
