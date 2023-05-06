@@ -1,6 +1,5 @@
 import React from 'react'
 import "./WhoWeAre.css"
-import { NavLink } from 'react-router-dom'
 
 const WhoWeAre = () => {
   return (

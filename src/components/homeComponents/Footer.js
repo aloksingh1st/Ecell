@@ -105,7 +105,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <p>Copyright &copy; 2023 KIT KANPUR</p>
+          {/* <p>Copyright &copy; 2023 KIT KANPUR</p> */}
         </div>
       </footer>
     </>

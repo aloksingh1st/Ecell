@@ -1,5 +1,5 @@
 import React from 'react'
-import "./WhatWeDo.css"
+import "./whoom.css"
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const WhatWeDo = () => {

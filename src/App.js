@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './app.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -16,16 +16,16 @@ import Contact from "./components/Contact"
 import Footer from './components/homeComponents/Footer';
 import ApplyPage from "./components/forms/ApplyPage"
 import ConnectForm from './components/ConnectComponent/ConnectForm';
-import Admin from './components/blogs/Admin';
+// import Admin from './components/blogs/Admin';
 // import Home from './components/blogs/Sidebar';
 import HomeBlog from './components/blogs/HomeBlog';
 import Mainblog from './components/blogs/Mainblog';
-import Login from './components/blogs/login';
+// import Login from './components/blogs/login';
 
 
 function App() {
 
-  const [isAuth, setIsAuth] = useState(false)
+  // const [isAuth, setIsAuth] = useState(false)
   return (
     <>
 
@@ -45,7 +45,7 @@ function App() {
           <Route path="/applyPage" element={<ApplyPage></ApplyPage>}></Route>
           <Route path="/gallary" element={<Gallary></Gallary>}></Route>
 
-          <Route path="/blogs/admin" element={<Login setIsAuth={setIsAuth}></Login>}></Route>
+          {/* <Route path="/blogs/admin" element={<Login setIsAuth={setIsAuth}></Login>}></Route> */}
           <Route path="/connectForm" element={<ConnectForm></ConnectForm>}></Route>
           <Route path="/blogs/Home" element={<HomeBlog></HomeBlog>}></Route>
           <Route path="/blogs/Create" element={<HomeBlog></HomeBlog>}></Route>

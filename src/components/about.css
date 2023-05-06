@@ -16,6 +16,7 @@
 
 .card-container{
     display: flex;
+    /* flex-direction: row-reverse; */
     margin: 10rem;
     align-items: center;
     z-index: -1;
@@ -59,7 +60,7 @@
 .large-card-conatainer{
     display: flex;
     margin: 5rem;
-    flex-direction: column;
+    flex-direction:row;
 
 }
 
